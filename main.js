@@ -21,4 +21,6 @@ for (let i = 0; i < listaDeTeclas.length; i++) {
 
     //console.log(listaDeTeclas[i])
 }
+// Começando novo codico
 
+const retornoTecla = 0 ;
