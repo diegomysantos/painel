@@ -1,3 +1,23 @@
+function tocaRadio(){
+
+    document.querySelector('#trilha').play();
+}
+
+const listaRadio = document.querySelectorAll('.estacao');
+
+
+
+for (let i = 0; i < listaRadio.length; i++) {
+   
+    listaRadio[i].onclick = tocaRadio
+    console.log(i)
+    
+}
+
+
+
+
+
 function tocaSom (idElementoAudio){
     document.querySelector(idElementoAudio).play();
 
@@ -19,8 +39,5 @@ for (let i = 0; i < listaDeTeclas.length; i++) {
         tocaSom(idAudio);
     }
 
-    //console.log(listaDeTeclas[i])
 }
-// Começando novo codico
 
-const retornoTecla = 0 ;
